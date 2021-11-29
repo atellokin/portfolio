@@ -1,0 +1,92 @@
+/*KINÉZET*/
+body{
+	background-color: slategray;
+	color: white;
+	display: grid;
+	grid-template-areas: 
+	"fejléc"
+	"kontent"
+	"lábléc";
+	grid-template-rows: max-content 1fr max-content;
+	 min-height: 100vh;
+	 font-size: 20px;
+}
+
+header{
+background-color: black;
+grid-area: fejléc;}
+
+main{
+grid-area: kontent;
+}
+footer{ 
+	background-color: black;
+grid-area: lábléc;}
+
+/*FEJLÉC*/ 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+border: 1px white;}
+
+li {
+  display: inline;
+  float: left;
+}
+
+a { color: white;
+text-decoration: none;
+font-size: 20px;
+padding: 10px;}
+
+li a {
+  display: block;
+  padding: 8px;}
+
+header{
+line-height: 2rem;
+font-size: .95rem;
+text-align: left;
+padding: .75rem 1rem;
+}
+
+
+img { height: 300px;
+  width: auto;
+  float: right;
+  padding: 50px;
+  border-radius: 15%;
+ }
+
+footer{
+	color: white;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: auto auto;
+align-content: center;}
+ 
+.grid-item {
+ text-align: left;}
+
+p a {
+font-size: 16px;
+display: inline block;
+}
+
+body p{
+margin: 20px;
+
+}
+
+
+
+
+

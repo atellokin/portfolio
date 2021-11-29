@@ -1,0 +1,119 @@
+body{ background-color: slategray;
+	color: white;
+}
+
+header{ background-color: black; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;}
+
+li {
+  display: inline;
+  float: left;}
+
+a { color: white;
+text-decoration: none;
+font-size: 20px;
+padding: 10px;}
+
+li a { display: block;
+  padding: 8px;
+border: 2px white;}
+
+header{ line-height: 2rem;
+font-size: .95rem;
+text-align: left;
+padding: .75rem 1rem;
+}
+
+/*képek*/ 
+div.polaroid {
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+
+}
+
+.container1 {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+div img{
+	width: 300px;
+height: 350px;}
+
+
+/*Kézzel készült */
+  
+.grid-container1{ 
+ display: grid;
+ grid-template-columns: auto auto auto;
+ max-content: 800px 1fr;
+  }
+
+
+.grid-item{
+text-align: center;
+ color: black;}
+
+
+/*fényképek*/
+
+.container2 {
+	position: relative;
+  width: 300px
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container2:hover .image {
+  opacity: 0.3;
+}
+
+.container2:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;}
+
+.grid-container2{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  max-width: 1000px;
+ align-content: center;
+grid-gap: 20px;}
+ 
+.grid-item2 {
+	width: 400px;
+ text-align: center;}
+

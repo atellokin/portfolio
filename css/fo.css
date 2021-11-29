@@ -1,0 +1,16 @@
+img { border-radius: 100%;}
+
+body{ background-color:slategrey ; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+ align-content: center;
+ height: 800px;}
+ 
+.grid-item {
+ text-align: center;}
+
+
+
+
